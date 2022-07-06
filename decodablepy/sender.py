@@ -6,7 +6,6 @@ import requests
 __name__="sender"
 
 def send(data={}, config={ "token": Empty, "account": Empty, "endpoint": Empty}, callback = lambda resp : print(resp)):
-    response = requests.post('https://httpbin.org/post', data = {'key':'value'})
 
     headers = {
         "Accept": "application/json",
