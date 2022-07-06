@@ -7,7 +7,7 @@ requirements = ["requests>=2"]
 
 setup(
     name="decodablepy",
-    version="0.0.2",
+    version="0.0.3",
     author="Hubert Dulay",
     author_email="hubert.dulay@gmail.com",
     description="a client for decodable.co",
